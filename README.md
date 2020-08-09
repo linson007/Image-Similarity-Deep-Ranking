@@ -10,12 +10,12 @@ Libraries -
 pip3 install urllib3
 pip3 install numpy
 pip3 install https://download.pytorch.org/whl/cu90/torch-1.0.0-cp36-cp36m-win_amd64.whl
-pip3 install torchvision
-pip3 install skimage
+pip3 install torchvision==0.2.1
+pip3 install scikit-image
 pip3 install pandas
 pip3 install tqdm
-pip3 install tensorflow-gpu or pip3 install tensorflow
-pip3 install keras
+pip3 install tensorflow-gpu or pip3 install tensorflow==1.14
+pip3 install keras==2.2.5
 ```
 #### Downloading Triplets
 The training of DeepRanking requires triplets images (query, positive and negative image) which can be found at [here](https://sites.google.com/site/imagesimilaritydata/download). Download ```QUERY_AND_TRIPLETS.TXT``` and store it in a folder.
